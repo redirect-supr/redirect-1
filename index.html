@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Webpage Layout</title>
+  <style>
+    /* Basic CSS styling for the webpage layout */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #007BFF;
+      color: #fff;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+  <!--
+    Legal and Ethical Warning:
+    This code is provided for educational purposes only.
+    Do not use this code for unethical practices or to collect user data without explicit consent.
+    Always adhere to security best practices and use HTTPS links to ensure secure navigation.
+  -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Simple Webpage</h1>
+  </header>
+  
+  <main>
+    <p>Click the button below to navigate to a designated link.</p>
+    <!-- Button that triggers a redirect to a specified URL -->
+    <button onclick="redirectToLink()">Go to Link</button>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    /**
+     * Function: redirectToLink
+     * Description: Redirects the user to a specified URL when the button is clicked.
+     * Warning: Always ensure that the URL is secure (preferably HTTPS) and verified.
+     */
+    function redirectToLink() {
+      // Replace the URL below with your desired destination
+      var url = "https://www.example.com";
+      // Redirect the user to the specified URL
+      window.location.href = url;
+    }
+  </script>
+  <!--
+    Additional Note:
+    Make sure any external links you use are safe and have proper security certificates.
+    This example is for demonstration and educational purposes; ensure you test and secure your code before production use.
+  -->
+</body>
+</html>
